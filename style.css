@@ -1,0 +1,98 @@
+header{
+    background-color: rgb(206, 247, 249); /*цвет фона*/
+    height: 200px; /*высота*/
+    color: black; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    background-image: url("lake-surrounded-by-rocky-landscape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px ;
+    color: rgb(0, 0, 0);  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+    font-weight: normal;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    font-style: normal;
+    text-shadow: rgb(0, 0, 0) 2px 5px 5px;
+    
+}
+main{
+    background-color: rgb(236, 156, 195); /*цвет фона*/
+    height: 100%; /*высота*/
+    color: black; /*цвет текста*/
+    font-size: 20px; /*размер текста*/
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( to left, green, rgb(160, 194, 221));
+
+}
+footer{
+    background-color: rgb(235, 238, 170); /*цвет фона*/
+    height: 100%; /*высота*/
+    color: black; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    background: radial-gradient(white, rgb(63, 122, 139));
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+
+
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: darkgreen;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+   
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(18, 60, 60);
+    float: right;
+    padding: 10px;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_left img{
+    padding-top: 20px;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
+.f_right img{
+    width: 70px;
+    padding-left: 20px ;
+}
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
